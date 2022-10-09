@@ -135,20 +135,135 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 150px;
+    
 }
 .section3__article{
-    display: block;
-    margin: 15px;
-    padding: 15px;
-    width: 250px;
+    display: flex;
+    margin: 5px;
+    padding: 1px;
+    width: 270px;
     height: 300px;
-    border: solid 1px grey;   
+    border: solid 1px rgb(187, 180, 180);
+    height: 400px;     
 }
 
-.section3__article img{
-    width: 230px;
+.section3__article1 img{
+    width: 200px;  
 }
 .section3__article h4{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
+    
 }
+.section3__article a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.section3__article1{
+    margin: 30px;  
+}
+.section3__article1 h4{
+    padding-bottom: 15px;
+}
+.section3__article1 p{
+    margin-bottom: 15px;
+}
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+.section4__article1{
+    margin: 35px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.section4__article1 img{
+    width: 560px;
+    height: 315px; 
+}
+.section4__article{
+    border: solid 1px rgb(187, 180, 180);
+    width: 630px;
+    height: 419px;
+    margin: 10px;
+}
+.section4__article1 h4{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section4__article1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.section5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    align-content: center;
+    text-align: center;
+}
+.section5__article1{
+    margin: 30px;
+
+
+}
+.section5__article{
+    display: block;
+    background-color: rgb(250, 244, 244);
+    width: 300px;
+    height: 120px;
+    margin: 15px;
+}
+.section5__article1 span{
+    width: 250px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.section5__article1 a{
+    text-decoration: none;
+    color: grey;  
+}
+.footer{
+    display: flex;
+    background-color: rgb(250, 244, 244) ;
+    height: 300px;
+    align-items: center;
+    justify-content: left;
+    
+}
+.footer__article{ 
+    margin-left: 125px;
+}
+.footer__article1 h5{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer__article a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: grey;
+}
+.footerLast{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.footerLast__article{
+    margin-top: 24px;
+}
+.footerLast__article a{
+    margin: 24px;
+    text-decoration: none;
+    color: rgb(54, 124, 141);
+}
+
